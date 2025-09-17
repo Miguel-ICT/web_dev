@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adventure Game</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style></style>
+  </head>
+
+  <body>
+    <script>
+      // Welcome the player to the adventure game
+      alert(
+        "Welcome to the Adventure Game! Your choices will determine your destiny."
+      );
+
+      // Ask the player to choose a door (1, 2, or 3)
+      const chosenDoor = prompt(
+        "You find yourself in a room with three doors. Which door do you choose? (1, 2, or 3)"
+      );
+
+      // Convert the chosen door to a number
+      const doorNumber = parseInt(chosenDoor);
+
+      // Use if/else if/else statements to create different scenarios based on the chosen door.
+      // Enter your code below:
+
+      // If the doorNumber selected is 1, show the following message in an alert:
+      // "You enter a room filled with treasure! You've struck gold!"
+      if (doorNumber == 1) {
+        alert("You enter a room filled with treasure! You've struck gold!");
+      } else if (doorNumber == 2) {
+        alert(
+          "Oh no! A trap door opens and you fall into a pit. It's dark down here..."
+        );
+      } else if (doorNumber == 3) {
+        alert(
+          "You step into a garden with beautiful flowers and a clear blue sky. What a lovely place!"
+        );
+      } else {
+        alert 
+          ("You can't make up your mind, so you stay in the room. Time passes by...");
+      }
+
+      // If the doorNumber selected is 2, show the following message in an alert:
+      // "Oh no! A trap door opens and you fall into a pit. It's dark down here..."
+
+      // If the doorNumber selected is 3, show the following message in an alert:
+      // "You step into a garden with beautiful flowers and a clear blue sky. What a lovely place!"
+
+      // If any other doorNumber is given, display the following message in an alert:
+      // "You can't make up your mind, so you stay in the room. Time passes by..."
+    </script>
+  </body>
+</html>
